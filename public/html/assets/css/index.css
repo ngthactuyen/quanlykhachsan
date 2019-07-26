@@ -1,0 +1,336 @@
+/*-------------------------------------------------------------------------------------------*/
+/*  Main Banner        ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+.main-banner {
+	position: relative;
+	margin-top: -60px;
+}
+@media (max-width: 767px) {
+	.main-banner {
+		margin-top: 92px;
+	}
+}
+.main-banner .banner-text .sub-text {
+	font-weight: 600;
+	color: #ffffff;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	line-height: 1;
+}
+.main-banner .banner-text h2 {
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: 800;
+	margin-bottom: 10px;
+	line-height: 1.5 !important;
+	text-transform: capitalize;
+	padding: 10px 0;
+}
+.main-banner .banner-text h2 span {
+	color: #daa106;
+	font-size: 40px;
+	
+}
+.main-banner .banner-text p {
+	font-family: "Roboto";
+	color: #ffffff;
+	font-size: 15px;
+	margin-bottom: 20px;
+	line-height: 1.8;
+}
+.main-banner .tp-parallax-wrap {
+}
+.main-banner .tp-mask-wrap {
+	height: auto;
+}
+.main-banner .more-btn {
+	background: #daa106;
+	line-height: 30px;
+	padding-left: 38px;
+	padding-right: 38px;
+	font-weight: 700;
+	color: #fff;
+}
+.main-banner li .btn-text {
+	line-height: 60px;
+	padding-left: 38px;
+	padding-right: 38px;
+	font-size: 13px;
+	font-weight: 700;
+	margin-bottom: 100px;
+}
+#wrapper .main-banner .tp-bullets {
+	top: auto;
+	left: 52%;
+	display: block;
+	visibility: visible;
+	opacity: 1;
+	bottom: 66px;
+}
+.main-banner .tp-bullet {
+	width: 26px;
+	height: 3px;
+	background: #8f8f8f;
+}
+.main-banner .tp-bullet.selected {
+	background: #ffaf36;
+}
+.tparrows.tp-leftarrow, .tparrows.tp-rightarrow {
+	border: 1px solid #fff;
+	z-index: 99;
+	cursor: pointer;
+	background: none;
+	visibility: hidden;
+}
+.main-banner:hover .tparrows.tp-leftarrow, .main-banner:hover .tparrows.tp-rightarrow {
+	visibility: visible;
+}
+.tparrows.tp-leftarrow:hover, .tparrows.tp-rightarrow:hover {
+	background: #daa106;
+	border: 1px solid #daa106;
+}
+.slotholder:before {
+	border-top: none;
+	border-bottom: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background-color: rgba(0,0,0,0.69);
+	content: '';
+}
+@media (max-width: 480px) {
+	.main-banner .banner-text h2,
+	.main-banner .banner-text span {
+		font-size: 18px !important;
+	}
+	.main-banner .banner-text p {
+		line-height: 1.2;
+		font-size: 15px;
+	}
+}
+
+.main-banner li .btn-text {
+	line-height: 44px !important;
+}
+
+/*service*/
+.sevice-box {
+
+}
+.sevice-box figure {
+	margin: 0px;
+}
+.sevice-box figure img {
+	width: 100%;
+}
+.sevice-box .service-text {
+	border: 1px solid #c3c3c3;
+	padding: 25px 20px;
+	margin: -78px 25px 0px 25px;
+	position: relative;
+	z-index: 3;
+	background: #fff;
+	border-top: 0px;
+	position: relative;
+	z-index: 2;
+	top: 0;
+	transition: all 0.3s ease-in-out;
+}
+.sevice-box:hover .service-text {
+	top: -10px;
+	color: #fff;
+	border: 1px solid #fbb908;
+}
+.sevice-box .service-text h3 a {
+	color: #333;
+	transition: all 0.3s ease-in-out 0.2s;
+}
+.sevice-box:hover .service-text h3 a {
+	color: #fff;
+}
+.sevice-box .service-text:before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	content: '';
+	background: #fbb908;
+	z-index: -1;
+	transition: all 0.3s ease-in-out;
+}
+.sevice-box:hover .service-text:before {
+	height: 100%;
+}
+/*nesw-Sec*/
+.btn-styl {
+	background: #fff;
+	font-size: 20px;
+	position: relative;
+	z-index: 2;
+	border:none;
+	border-radius:0;
+}
+.btn-styl:before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width:100%;
+	height: 100%;
+	background:#28303b;
+	content:"";
+	transform:scaleX(0);
+	opacity: 0;
+	-webkit-transition: all 0.2s linear 0s;
+	-moz-transition: all 0.2s linear 0s;
+	-ms-transition: all 0.2s linear 0s;
+	-o-transition: all 0.2s linear 0s;
+	transition: all 0.2s linear 0s;
+	
+}
+.btn-styl:hover:before{
+	transform:scaleX(1);
+	opacity: 1;
+}
+.btn-styl:hover {
+	color: #fff;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* home Testimonials     ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+.testimorial-bg .testimonial .quote-bot {
+	border: 1px solid;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	display: inline-block;
+	line-height: 93px;
+}
+.testimorial-bg .testimonial .invatic-icon i {
+	font-size: 30px;
+}
+.testimorial-bg .testimonial p {
+	font-size: 16px;
+}
+.testimorial-bg .testimonial {
+	padding: 36px 20px;
+	background: #fff;
+}
+.testimorial-bg .testimonial .quote-author {
+	display: block;
+	float: none;
+	margin: 0px;
+	font-size: 18px;
+	color: #000;
+	margin-bottom: 10px
+}
+.testimorial-bg .testimonial .invatic-icon {
+	margin-bottom: 28px;
+	display: inline-block;
+}
+.testimorial-bg .testimonial span {
+	display: block;
+}
+
+/*regitaion*/
+/*registration Section*/
+.registration_section h3 {
+	font-size: 40px;
+}
+.registration_section h3 span {
+	color: #333;
+}
+.registration_section .appointment {
+	margin-right: 0;
+	position: static;
+	background: #fff;
+	padding: 15px 30px 19px 30px;
+}
+
+.appointment .form-field-wrapper {
+	margin-bottom: 0px;
+}
+.appointment .form-field-wrapper label {
+	margin-bottom: 6px;
+}
+.appointment .form-field-wrapper textarea {
+	height: 80px;
+}
+@media (max-width: 991px) {
+	.registration_section .image_cover_right {
+		display: none;
+	}
+	.registrantion_counter ul.countdown li {
+		float: none;
+		display: inline-block;
+		width: 123px;
+		margin: 10px !important;
+	}
+	.registration_section .appointment {
+		width: 100%;
+	}
+}
+
+/*Choose*/
+.poins ul {
+	margin: 0px;
+	padding: 0px;
+}
+.poins ul li {
+	list-style: none;
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+}
+@media (max-width: 767px) {
+	.poins ul li {
+		width: 100%;
+	}
+}
+.poins ul li i {
+	font-size: 25px;
+}
+.poins ul li span {
+	padding-left: 20px;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 600;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	.poins ul li span {
+		padding-left: 10px;
+		font-size: 12px;
+	}
+
+}
+#choose .text-content h4 {
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*home Client Logo       ||---------------------------- */
+/*-------------------------------------------------------------------------------------------*/
+
+.client-logo {
+	height: 100px;
+	text-align: center;
+	background: #fff;
+}
+
+.client-logo img {
+	height: 100%;
+	width: auto;
+}
+#client-logos .owl-stage-outer .owl-item .item .client-logo img {
+	width: auto;
+	display: inline-block;
+}
+
