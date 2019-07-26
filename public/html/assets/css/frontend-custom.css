@@ -1,9 +1,0 @@
-.post-description{
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: 15px;
-}
-
-.main-menu__block ul > li:first-child ul li:last-child{
-    display: block;
-}
